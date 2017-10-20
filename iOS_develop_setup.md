@@ -1,15 +1,16 @@
-搭建 iOS 开发环境，安装 mac 系统常用软件
+# 搭建 iOS 开发环境，安装 mac 系统常用软件
+
+
 -
 * Xcode
 * Homebrew
 * Cocoapods
 * Carthage
 
+-
 * Visual studio code
 
 -
-
-
 * 下载 Github 常用开源代码
 * GitHub Desktop
 
@@ -30,7 +31,6 @@
 -
 * Alfred
 * CheatSheet
-
 
 -
 * 印象笔记
