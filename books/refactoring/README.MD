@@ -115,9 +115,9 @@
 如果你想重构，就必须编写测试代码。
 
 # 重新组织你的函数
-### Extract Method，提炼函数![](110.jpg)
-### Inline Method，将函数内联![](142.jpg)
-### Inline Temp，将临时变量内联![](144.jpg)
+### [Extract Method，提炼函数](110.jpg)
+### [Inline Method，将函数内联](142.jpg)
+### [Inline Temp，将临时变量内联](144.jpg)
 ### Replace Temp With Query，以查询取代临时变量
 ### Introduce Explaining Variable，引入解释性变量
 ### Split Temporary Variable，拆分临时变量
