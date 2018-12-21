@@ -49,7 +49,7 @@
 ### 设计模式和重构
 设计模式为重构提供了目标。
 
-然而，确定目标只是问题的一部分而已，改造程序以达目标，是另一个难题。
+模式是你希望到达的目标，重构则是到达之路。
 
 ### 先设计后编码
 首先得有一个良好的设计，然后才开始编码。但是，随着时间流逝，人们不断修改代码，于是根据原先设计所得的系统，整体结构逐渐衰弱。代码质量慢慢沉沦，编码工作从严谨的工程堕落为胡砍乱劈的随性行为。
@@ -102,18 +102,110 @@
 * 过多的注释
 
 # 构筑测试体系
+编写优良的测试程序，可以极大提高编程速度，这违反许多程序员的直觉。
+### 自我测试代码的价值
+如果认真观察程序员把最多时间耗在哪里，你就会发现，编写代码其实只占非常小的一部分。有些时间用来决定下一步干什么，另一些时间花在设计上面，最多的时间则是用来调试。
+
+修复错误通常是比较快的，但找出错误却是噩梦一场。
+
+> 确保所有测试都完全自动化，让它们检查自己的测试结果。
+> 
+> 一整组（a suilt of）测试就是一个强大的 bug 侦测器，能够大大缩减查找 bug 所需要的时间。
+
+如果你想重构，就必须编写测试代码。
+
 # 重新组织你的函数
+1. Extract Method，提炼函数
+2. Inline Method，将函数内联
+3. Inline Temp，将临时变量内联
+4. Replace Temp With Query，以查询取代临时变量
+5. Introduce Explaining Variable，引入解释性变量
+6. Split Temporary Variable，拆分临时变量
+	7. 
+7. Remove Assignments to Parameters，不要对参数赋值
+8. Replace Method with Method Object，以函数对象取代函数
+9. Substitute Algorithm，替换你的算法
+
+
 # 在对象之间搬移特性
+1. Move Method，移动函数
+2. Move Field，移动成员变量
+3. Extract Class，提炼类
+4. Inline Class，将类内联
+5. Hide Delegate，隐藏委托关系
+6. Remove Middle Man，移除中间人
+7. Introduce Foreign Method，引入外加函数
+8. Introduce Local Extension，引入本地扩展
+
 # 重新组织数据
+1. Self Encapsulate Field，自封装值域
+	2. 使用 getter 函数
+2. Replace Data Value with Object，以对象取代数据值
+3. Change Value to Reference，将传值改为引用
+4. Chang Reference to Value，将引用改为传值
+5. Replace Array with Object，以对象取代数组
+6. Duplicate Observed Data，复制被观察数据
+7. Change Unidirectional Association to Bidirectional，将单向关联改为双向
+8. Change Bidirectional Association to UniDirectional，将双向关联改为单向
+9. Replace Magic Number with Symbolic Constant，以符号常量取代神秘数字
+10. Encapsulate Field，封装值域
+	11. 
+11. Encapsulate Collection，封装群集
+12. Replace Record with Data Class，以数据类取代记录
+13. Replace Type Code with Class，以类取代类型码
+14. Replace Type Code with Subclasses，用子类取代类型码
+15. Replace Type Code with State/Strategy，用状态策略模式取代类型码
+16. Replace Subclass with Fields，以值域取代子类
+
 # 简化条件表达式
+1. Decompose Conditional，分解条件式
+2. Consolidate Conditional Expression，合并条件式
+3. Consolidate Duplicate Conditional Fragments，合并重复的条件判断
+4. Remove Control Flag，移除控制标记
+5. Replace Nested Conditional With Guard Clauses，以卫语句取代嵌套条件式
+6. Replace Conditional with Polymorphism，以多态取代条件式
+7. Introduce Null Object，引入 Null 对象
+8. Introduce Assertion，引入断言
+
 # 简化函数调用
+1. Rename Method，重新命名函数
+2. Add Parameter，添加参数
+3. Remove Parameter，移除参数
+4. Separate Query from Modifier，将查询函数和修改函数分离
+5. Parameterize Method，令函数携带参数
+6. Replace Parameter with Explicit Methods，以明确函数取代参数
+7. Preserve Whole Object，保持对象完整
+	8. 
+8. Replace Parameter with Method，以函数取代参数
+9. Introduce Parameter Object，引入参数对象
+10. Remove Setting Method，移除 setter 函数
+11. Hide Method，隐藏某个函数
+12. Replace Constructor with Factory Method，以工厂函数取代构造函数
+13. Encapsulate Downcast，封装类型转换动作
+14. Replace Error Code with Exception，以异常取代错误码
+15. Replace Exception with Test，以测试取代错误码
+
 # 处理继承关系
+1. Pull Up Field，值域上移
+2. Pull Up Method，函数上移
+3. Pull Up Constructor Body，构造函数内容上移
+4. Pull Down Method，函数下移
+5. Pull Down Field，值域下移
+6. Extract Subclass，提炼子类
+7. Extract Superclass，提炼超类
+8. Extract Interface，提炼接口
+9. Collapse Hierarchy，折叠继承体系
+10. Form Template Method，塑造模板函数
+11. Replace Inheritance with Deletation，以委托取代继承
+12. Replace Delegation with Inheritance，以继承取代委托
+
 # 大型重构
-## 梳理并分解继承体系
-## 将过程化设计转化为对象设计
-## 将领域和表述/显示分离
-## 提炼继承体系
-# 重构，复用与现实
+1. 梳理并分解继承体系
+1. 将过程化设计转化为对象设计
+1. 将领域和表述/显示分离
+1. 提炼继承体系
+
+
 # 集成
 * 随时挑一个目标
 * 没把握就停下来
