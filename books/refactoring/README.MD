@@ -116,7 +116,9 @@
 
 # 重新组织你的函数
 1. Extract Method，提炼函数
+![](110.jpg)
 2. Inline Method，将函数内联
+![](142.jpg)
 3. Inline Temp，将临时变量内联
 4. Replace Temp With Query，以查询取代临时变量
 5. Introduce Explaining Variable，引入解释性变量
