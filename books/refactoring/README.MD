@@ -115,26 +115,30 @@
 如果你想重构，就必须编写测试代码。
 
 # 重新组织你的函数
-### 1. Extract Method，提炼函数![](110.jpg)
-### 2. Inline Method，将函数内联![](142.jpg)
-### 3. Inline Temp，将临时变量内联![](144.jpg)
-### 4. Replace Temp With Query，以查询取代临时变量
-### 5. Introduce Explaining Variable，引入解释性变量
-### 6. Split Temporary Variable，拆分临时变量
-### 7. Remove Assignments to Parameters，不要对参数赋值
-### 8. Replace Method with Method Object，以函数对象取代函数
-### 9. Substitute Algorithm，替换你的算法
+## 1. Extract Method，提炼函数
+![](110.jpg)
+## 2. Inline Method，将函数内联
+![](142.jpg)
+## 3. Inline Temp，将临时变量内联
+![](144.jpg)
+
+## 4. Replace Temp With Query，以查询取代临时变量
+## 5. Introduce Explaining Variable，引入解释性变量
+## 6. Split Temporary Variable，拆分临时变量
+## 7. Remove Assignments to Parameters，不要对参数赋值
+## 8. Replace Method with Method Object，以函数对象取代函数
+## 9. Substitute Algorithm，替换你的算法
 
 
 # 在对象之间搬移特性
-### 1. Move Method，移动函数
-### 2. Move Field，移动成员变量
-### 3. Extract Class，提炼类
-### 4. Inline Class，将类内联
-### 5. Hide Delegate，隐藏委托关系
-### 6. Remove Middle Man，移除中间人
-### 7. Introduce Foreign Method，引入外加函数
-### 8. Introduce Local Extension，引入本地扩展
+## 1. Move Method，移动函数
+## 2. Move Field，移动成员变量
+## 3. Extract Class，提炼类
+## 4. Inline Class，将类内联
+## 5. Hide Delegate，隐藏委托关系
+## 6. Remove Middle Man，移除中间人
+## 7. Introduce Foreign Method，引入外加函数
+## 8. Introduce Local Extension，引入本地扩展
 
 # 重新组织数据
 1. Self Encapsulate Field，自封装值域
