@@ -206,22 +206,36 @@
 ![](./d/292.jpg)
 
 # e. 简化函数调用
-1. Rename Method，重新命名函数
-2. Add Parameter，添加参数
-3. Remove Parameter，移除参数
-4. Separate Query from Modifier，将查询函数和修改函数分离
-5. Parameterize Method，令函数携带参数
-6. Replace Parameter with Explicit Methods，以明确函数取代参数
-7. Preserve Whole Object，保持对象完整
-	8. 
-8. Replace Parameter with Method，以函数取代参数
-9. Introduce Parameter Object，引入参数对象
-10. Remove Setting Method，移除 setter 函数
-11. Hide Method，隐藏某个函数
-12. Replace Constructor with Factory Method，以工厂函数取代构造函数
-13. Encapsulate Downcast，封装类型转换动作
-14. Replace Error Code with Exception，以异常取代错误码
-15. Replace Exception with Test，以测试取代错误码
+## 1. Rename Method，重新命名函数
+![](./e/298.jpg)
+## 2. Add Parameter，添加参数
+![](./e/300.jpg)
+## 3. Remove Parameter，移除参数
+![](./e/302.jpg)
+## 4. Separate Query from Modifier，将查询函数和修改函数分离
+![](./e/304.jpg)
+## 5. Parameterize Method，令函数携带参数
+![](./e/308.jpg)
+## 6. Replace Parameter with Explicit Methods，以明确函数取代参数
+![](./e/310.jpg)
+## 7. Preserve Whole Object，保持对象完整
+![](./e/313.jpg)
+## 8. Replace Parameter with Method，以函数取代参数
+![](./e/317.jpg)
+## 9. Introduce Parameter Object，引入参数对象
+![](./e/320.jpg)
+## 10. Remove Setting Method，移除 setter 函数
+![](./e/325.jpg)
+## 11. Hide Method，隐藏某个函数
+![](./e/328.jpg)
+## 12. Replace Constructor with Factory Method，以工厂函数取代构造函数
+![](./e/329.jpg)
+## 13. Encapsulate Downcast，封装类型转换动作
+![](./e/333.jpg)
+## 14. Replace Error Code with Exception，以异常取代错误码
+![](./e/335.jpg)
+## 15. Replace Exception with Test，以测试取代错误码
+![](./e/340.jpg)
 
 # f. 处理继承关系
 1. Pull Up Field，值域上移
