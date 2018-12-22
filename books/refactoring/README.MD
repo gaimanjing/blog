@@ -90,6 +90,10 @@
 * 首先写出易理解的代码
 * 出现性能问题时再做优化
 
+
+---
+---
+
 # 代码的坏味道
 * 重复的代码
 * 过长函数
@@ -178,13 +182,13 @@
 ![](./b/189.jpg)
 
 # c. 重新组织数据
-## 1. Self Encapsulate Field，自封装字段
+## 1. Self Encapsulate Field，类内部封装字段
 ![](./c/196.jpg)
 ## 2. Replace Data Value with Object，以对象取代数据值
 ![](./c/200.jpg)
-## 3. Change Value to Reference，将传值改为引用
+## 3. Change Value to Reference，将值对象改为引用
 ![](./c/204.jpg)
-## 4. Chang Reference to Value，将引用改为传值
+## 4. Chang Reference to Value，将引用改为值对象
 ![](./c/208.jpg)
 ## 5. Replace Array with Object，以对象取代数组
 ![](./c/211.jpg)
@@ -216,7 +220,7 @@
 ![](./d/263.jpg)
 ## 2. Consolidate Conditional Expression，合并条件式
 ![](./d/265.jpg)
-## 3. Consolidate Duplicate Conditional Fragments，合并重复的条件判断
+## 3. Consolidate Duplicate Conditional Fragments，合并重复的条件内代码
 ![](./d/268.jpg)
 ## 4. Remove Control Flag，移除控制标记
 ![](./d/270.jpg)
@@ -240,13 +244,13 @@
 ![](./e/304.jpg)
 ## 5. Parameterize Method，令函数携带参数
 ![](./e/308.jpg)
-## 6. Replace Parameter with Explicit Methods，以明确函数取代参数
+## 6. Replace Parameter with Explicit Methods，拆分函数为具体函数
 ![](./e/310.jpg)
-## 7. Preserve Whole Object，保持对象完整
+## 7. Preserve Whole Object，参数传入整个对象
 ![](./e/313.jpg)
-## 8. Replace Parameter with Method，以函数取代参数
+## 8. Replace Parameter with Method，以函数替换参数
 ![](./e/317.jpg)
-## 9. Introduce Parameter Object，引入参数对象
+## 9. Introduce Parameter Object，引入对象参数
 ![](./e/320.jpg)
 ## 10. Remove Setting Method，移除 setter 函数
 ![](./e/325.jpg)
@@ -254,11 +258,11 @@
 ![](./e/328.jpg)
 ## 12. Replace Constructor with Factory Method，以工厂函数取代构造函数
 ![](./e/329.jpg)
-## 13. Encapsulate Downcast，封装类型转换动作
+## 13. Encapsulate Downcast，函数内转换返回值类型
 ![](./e/333.jpg)
 ## 14. Replace Error Code with Exception，以异常取代错误码
 ![](./e/335.jpg)
-## 15. Replace Exception with Test，以测试取代错误码
+## 15. Replace Exception with Test，以条件判断取代异常
 ![](./e/340.jpg)
 
 # f. 处理继承关系
@@ -266,7 +270,7 @@
 ![](./f/345.jpg)
 ## 2. Pull Up Method，函数上移
 ![](./f/347.jpg)
-## 3. Pull Up Constructor Body，构造函数内容上移
+## 3. Pull Up Constructor Body，子类调用父类构造函数
 ![](./f/350.jpg)
 ## 4. Pull Down Method，函数下移
 ![](./f/353.jpg)
