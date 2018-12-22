@@ -25,16 +25,6 @@
 * 重构可能破坏现有程序
 
 
-## 如何重构
-### 小重构
-都可以在数分钟（至多一个小时）内完成。
-### 大型重构
-需要数月甚至数年的时间。
-### 重构工具
-* sonar 代码扫描
-* IntelliJ IDEA, Android stuidio, Xcode analyze, refactor
-* lint
-
 ## 何时重构
 * 三次法则
 
@@ -44,8 +34,23 @@
 * 修补错误时一并重构
 * 复审代码时一并重构
 
+## 如何重构
+### 重构之前
+* [代码的坏味道](#代码的坏味道)
 
-# 其它
+
+### 小型重构
+都可以在数分钟（至多一个小时）内完成。
+### 大型重构
+需要数月甚至数年的时间。
+### 集成
+### 重构工具
+* sonar 代码扫描
+* IntelliJ IDEA, Android stuidio, Xcode analyze, refactor
+* lint
+
+
+## 其它
 ### 设计模式和重构
 设计模式为重构提供了目标。
 
@@ -92,10 +97,13 @@
 * 夸夸其谈未来性，Speculative Generality
 * 令人迷惑的暂时 field
 * 过度耦合的消息链
+	* getA()->getB()->getC()->getD()...
 * 中间转手人
 * 狎昵关系，Inappropriate Intimacy
+	* 两个类过度亲密，花费太多时间去探究彼此的 private 成分
 * 异曲同工的类
 * 不完善的程序类库
+	* 想要扩展类库的功能
 * 纯稚的数据类，Data Class
 * 被拒绝的遗赠
 	* 子类不想要父类的数据或函数
@@ -119,7 +127,7 @@
 ![](./a/110.jpg)
 ## 2. Inline Method，将函数内联
 ![](./a/142.jpg)
-## 3. Inline Temp，将临时变量内联
+## 3. Inline Temp，去掉临时变量
 ![](./a/144.jpg)
 ## 4. Replace Temp With Query，以查询取代临时变量
 ![](./a/145.jpg)
