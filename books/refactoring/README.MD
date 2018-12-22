@@ -187,17 +187,25 @@
 ## 16. Replace Subclass with Fields，以值域取代子类
 ![](./c/257.jpg)
 
-# 简化条件表达式
-1. Decompose Conditional，分解条件式
-2. Consolidate Conditional Expression，合并条件式
-3. Consolidate Duplicate Conditional Fragments，合并重复的条件判断
-4. Remove Control Flag，移除控制标记
-5. Replace Nested Conditional With Guard Clauses，以卫语句取代嵌套条件式
-6. Replace Conditional with Polymorphism，以多态取代条件式
-7. Introduce Null Object，引入 Null 对象
-8. Introduce Assertion，引入断言
+# d. 简化条件表达式
+## 1. Decompose Conditional，分解条件式
+![](./d/263.jpg)
+## 2. Consolidate Conditional Expression，合并条件式
+![](./d/265.jpg)
+## 3. Consolidate Duplicate Conditional Fragments，合并重复的条件判断
+![](./d/268.jpg)
+## 4. Remove Control Flag，移除控制标记
+![](./d/270.jpg)
+## 5. Replace Nested Conditional With Guard Clauses，以卫语句取代嵌套条件式
+![](./d/275.jpg)
+## 6. Replace Conditional with Polymorphism，以多态取代条件式
+![](./d/280.jpg)
+## 7. Introduce Null Object，引入 Null 对象
+![](./d/285.jpg)
+## 8. Introduce Assertion，引入断言
+![](./d/292.jpg)
 
-# 简化函数调用
+# e. 简化函数调用
 1. Rename Method，重新命名函数
 2. Add Parameter，添加参数
 3. Remove Parameter，移除参数
@@ -215,7 +223,7 @@
 14. Replace Error Code with Exception，以异常取代错误码
 15. Replace Exception with Test，以测试取代错误码
 
-# 处理继承关系
+# f. 处理继承关系
 1. Pull Up Field，值域上移
 2. Pull Up Method，函数上移
 3. Pull Up Constructor Body，构造函数内容上移
