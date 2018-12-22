@@ -154,7 +154,7 @@
 ![](./b/189.jpg)
 
 # c. 重新组织数据
-## 1. Self Encapsulate Field，自封装值域
+## 1. Self Encapsulate Field，自封装字段
 ![](./c/196.jpg)
 ## 2. Replace Data Value with Object，以对象取代数据值
 ![](./c/200.jpg)
@@ -172,7 +172,7 @@
 ![](./c/225.jpg)
 ## 9. Replace Magic Number with Symbolic Constant，以符号常量取代神秘数字
 ![](./c/229.jpg)
-## 10. Encapsulate Field，封装值域
+## 10. Encapsulate Field，封装字段
 ![](./c/231.jpg)
 ## 11. Encapsulate Collection，封装群集
 ![](./c/233.jpg)
@@ -184,7 +184,7 @@
 ![](./c/248.jpg)
 ## 15. Replace Type Code with State/Strategy，用状态策略模式取代类型码
 ![](./c/252.jpg)
-## 16. Replace Subclass with Fields，以值域取代子类
+## 16. Replace Subclass with Fields，以字段取代子类
 ![](./c/257.jpg)
 
 # d. 简化条件表达式
@@ -238,24 +238,36 @@
 ![](./e/340.jpg)
 
 # f. 处理继承关系
-1. Pull Up Field，值域上移
-2. Pull Up Method，函数上移
-3. Pull Up Constructor Body，构造函数内容上移
-4. Pull Down Method，函数下移
-5. Pull Down Field，值域下移
-6. Extract Subclass，提炼子类
-7. Extract Superclass，提炼超类
-8. Extract Interface，提炼接口
-9. Collapse Hierarchy，折叠继承体系
-10. Form Template Method，塑造模板函数
-11. Replace Inheritance with Deletation，以委托取代继承
-12. Replace Delegation with Inheritance，以继承取代委托
+## 1. Pull Up Field，字段上移
+![](./f/345.jpg)
+## 2. Pull Up Method，函数上移
+![](./f/347.jpg)
+## 3. Pull Up Constructor Body，构造函数内容上移
+![](./f/350.jpg)
+## 4. Pull Down Method，函数下移
+![](./f/353.jpg)
+## 5. Pull Down Field，字段下移
+![](./f/354.jpg)
+## 6. Extract Subclass，提炼子类
+![](./f/355.jpg)
+## 7. Extract Superclass，提炼超类
+![](./f/361.jpg)
+## 8. Extract Interface，提炼接口
+![](./f/366.jpg)
+## 9. Collapse Hierarchy，折叠继承体系
+![](./f/369.jpg)
+## 10. Form Template Method，塑造模板函数
+![](./f/370.jpg)
+## 11. Replace Inheritance with Deletation，以委托取代继承
+![](./f/377.jpg)
+## 12. Replace Delegation with Inheritance，以继承取代委托
+![](./f/380.jpg)
 
 # 大型重构
-1. 梳理并分解继承体系
-1. 将过程化设计转化为对象设计
-1. 将领域和表述/显示分离
-1. 提炼继承体系
+## 1. 梳理并分解继承体系
+## 2. 将过程化设计转化为对象设计
+## 3. 将领域和表述/显示分离
+## 4. 提炼继承体系
 
 
 # 集成
