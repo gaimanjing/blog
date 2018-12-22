@@ -114,31 +114,44 @@
 
 如果你想重构，就必须编写测试代码。
 
-# 重新组织你的函数
+# a. 重新组织你的函数
 ## 1. Extract Method，提炼函数
-![](110.jpg)
+![](./a/110.jpg)
 ## 2. Inline Method，将函数内联
-![](142.jpg)
+![](./a/142.jpg)
 ## 3. Inline Temp，将临时变量内联
-![](144.jpg)
-
+![](./a/144.jpg)
 ## 4. Replace Temp With Query，以查询取代临时变量
+![](./a/145.jpg)
 ## 5. Introduce Explaining Variable，引入解释性变量
+![](./a/149.jpg)
 ## 6. Split Temporary Variable，拆分临时变量
+![](./a/153.jpg)
 ## 7. Remove Assignments to Parameters，不要对参数赋值
+![](./a/156.jpg)
 ## 8. Replace Method with Method Object，以函数对象取代函数
+![](./a/160.jpg)
 ## 9. Substitute Algorithm，替换你的算法
+![](./a/164.jpg)
 
 
 # 在对象之间搬移特性
 ## 1. Move Method，移动函数
+![](.jpg)
 ## 2. Move Field，移动成员变量
+![](.jpg)
 ## 3. Extract Class，提炼类
+![](.jpg)
 ## 4. Inline Class，将类内联
+![](.jpg)
 ## 5. Hide Delegate，隐藏委托关系
+![](.jpg)
 ## 6. Remove Middle Man，移除中间人
+![](.jpg)
 ## 7. Introduce Foreign Method，引入外加函数
+![](.jpg)
 ## 8. Introduce Local Extension，引入本地扩展
+![](.jpg)
 
 # 重新组织数据
 1. Self Encapsulate Field，自封装值域
