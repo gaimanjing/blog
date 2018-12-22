@@ -135,43 +135,57 @@
 ![](./a/164.jpg)
 
 
-# 在对象之间搬移特性
+# b. 在对象之间搬移特性
 ## 1. Move Method，移动函数
-![](.jpg)
+![](./b/167.jpg)
 ## 2. Move Field，移动成员变量
-![](.jpg)
+![](./b/171.jpg)
 ## 3. Extract Class，提炼类
-![](.jpg)
+![](./b/174.jpg)
 ## 4. Inline Class，将类内联
-![](.jpg)
+![](./b/179.jpg)
 ## 5. Hide Delegate，隐藏委托关系
-![](.jpg)
+![](./b/182.jpg)
 ## 6. Remove Middle Man，移除中间人
-![](.jpg)
+![](./b/185.jpg)
 ## 7. Introduce Foreign Method，引入外加函数
-![](.jpg)
+![](./b/187.jpg)
 ## 8. Introduce Local Extension，引入本地扩展
-![](.jpg)
+![](./b/189.jpg)
 
-# 重新组织数据
-1. Self Encapsulate Field，自封装值域
-	2. 使用 getter 函数
-2. Replace Data Value with Object，以对象取代数据值
-3. Change Value to Reference，将传值改为引用
-4. Chang Reference to Value，将引用改为传值
-5. Replace Array with Object，以对象取代数组
-6. Duplicate Observed Data，复制被观察数据
-7. Change Unidirectional Association to Bidirectional，将单向关联改为双向
-8. Change Bidirectional Association to UniDirectional，将双向关联改为单向
-9. Replace Magic Number with Symbolic Constant，以符号常量取代神秘数字
-10. Encapsulate Field，封装值域
-	11. 
-11. Encapsulate Collection，封装群集
-12. Replace Record with Data Class，以数据类取代记录
-13. Replace Type Code with Class，以类取代类型码
-14. Replace Type Code with Subclasses，用子类取代类型码
-15. Replace Type Code with State/Strategy，用状态策略模式取代类型码
-16. Replace Subclass with Fields，以值域取代子类
+# c. 重新组织数据
+## 1. Self Encapsulate Field，自封装值域
+![](./c/196.jpg)
+## 2. Replace Data Value with Object，以对象取代数据值
+![](./c/200.jpg)
+## 3. Change Value to Reference，将传值改为引用
+![](./c/204.jpg)
+## 4. Chang Reference to Value，将引用改为传值
+![](./c/208.jpg)
+## 5. Replace Array with Object，以对象取代数组
+![](./c/211.jpg)
+## 6. Duplicate Observed Data，复制被观察数据
+![](./c/214.jpg)
+## 7. Change Unidirectional Association to Bidirectional，将单向关联改为双向
+![](./c/222.jpg)
+## 8. Change Bidirectional Association to UniDirectional，将双向关联改为单向
+![](./c/225.jpg)
+## 9. Replace Magic Number with Symbolic Constant，以符号常量取代神秘数字
+![](./c/229.jpg)
+## 10. Encapsulate Field，封装值域
+![](./c/231.jpg)
+## 11. Encapsulate Collection，封装群集
+![](./c/233.jpg)
+## 12. Replace Record with Data Class，以数据类取代记录
+![](./c/242.jpg)
+## 13. Replace Type Code with Class，以类取代类型码
+![](./c/243.jpg)
+## 14. Replace Type Code with Subclasses，用子类取代类型码
+![](./c/248.jpg)
+## 15. Replace Type Code with State/Strategy，用状态策略模式取代类型码
+![](./c/252.jpg)
+## 16. Replace Subclass with Fields，以值域取代子类
+![](./c/257.jpg)
 
 # 简化条件表达式
 1. Decompose Conditional，分解条件式
